@@ -20,7 +20,7 @@ html {
 
 .header {
    padding: 2rem 7%; 
-   position: absolute;
+   position: relative;
    left: 0;
    right: 0;
    display: flex;
