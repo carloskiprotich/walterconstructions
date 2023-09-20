@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" id="logo">Walter Construction LTD</a>
+       <!-- <navbar class="nav">
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </navbar>  -->
+    
+        <div class="icon-header">
+            <div id="menu-bar"  class="fas fa-bars"></div> 
+            <div id="search-bar" class="fas fa-search"></div>
+        </div>  
+
+        <div class="search-form">
+           <input type="search" id="search-form" placeholder="search here"> 
+        </div>
+    </header>
+
+    <div class="background-image">
+        <div class="inner-back-text">
+            <h1>
+                construction services  <br>
+                <span>Creative and professional</span> 
+            </h1>
+
+           <!--<p>You are welcomed to work with us</p> --> 
+
+            <div class="inner-back-btn">
+                <a href="#contact-section" class="first-btn">Contact Us</a>
+                <a href="#project-section" class="second-btn">View Projects</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="welcome">
+        <div class="main-welcome">
+            <div class="inner-welcome">
+                <div class="welcome-text">
+                    <h1>Welcome to our Company</h1>
+                    <p>Our focus is to provide the best solutions within the built environment to the happiness of our clients  </p>
+                  <!--   <a href="" class="wel-btn"> -->
+
+                    </a>
+                </div>
+            </div>
+            <div class="inner-welcome">
+                <img src="IMAGES/PERSON1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--======IMAGE GALLERY=====-->
+
+    <div id="project-section">
+        <h1>OUR PROJECTS</h1>
+    <div class="full-img" id="fullImgBox">
+        <img src="IMAGES/R1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+       
+
+    </div>
+
+    <div class="img-gallery">
+        <img src="IMAGES/RES1.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES2.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES3.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES4.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES5.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES6.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES7.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES8.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES9.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES10.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES11.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/RES12.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/cover2.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/cover1.jpg"  onclick="openFullImg(this.src)">
+        <img src="IMAGES/cover3.jpg"  onclick="openFullImg(this.src)">
+        
+    </div>
+
+</div>
+
+    
+
+     <!--======IMAGE GALLERY=====-->
+
+
+     <div class="chose-us">
+        <h1>Why <span>choose</span> us</h1>
+        <p class="chose-text">We offer the best services in within the built environment. These services Construction Works, Architectural Designs, Renovation and House Repair works and structural Detailing</p>
+        <div class="main-chose">
+            <div class="inner-chose">
+                <div class="chose-icon">
+                    <i class="fa-solid fa-person-digging"></i>
+                </div>
+                <h2>Construction Services</h2>
+                <p>We provide construction works to the satisfaction of our clients </p>
+            </div>
+
+            <div class="inner-chose">
+                <div class="chose-icon">
+                    <i class="fa-solid fa-house-chimney-window"></i>
+                </div>
+                <h2>Architectural Designs</h2>
+                <p>Our designs are modern and achieve the required level as per the construction standards </p>
+            </div>
+
+            <div class="inner-chose">
+                <div class="chose-icon">
+                    <i class="fa-solid fa-hammer"></i>
+                </div>
+                <h2>Renovations</h2>
+                <p>We offer renovation and repair works which is done within the shortest time possible </p>
+            </div>
+
+            <div class="inner-chose">
+                <div class="chose-icon">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                </div>
+                <h2>Structural Detailing</h2>
+                <p>We provide structural designs and detailings which ensures the building standards and is in good conditions </p>
+            </div>
+        </div>
+     </div>
+
+     <div id="contact-section">
+       <div class="contact-container">
+        <h1>PHONE: +234 708 647 9564</h1>
+        <h1>EMAIL: Michael505walter@gmail.com</h1>
+       </div>
+
+       <div class="media-button">
+        <a href="#" style="background: #4267b2;"  class="link">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://twitter.com/home" class="link">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <a href="#" style="background: #e1306c;"  class="link">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+    </div>
+     </div>
+
+    <script src="SCRIPT.JS"></script>
+</body>
+
+</html>
